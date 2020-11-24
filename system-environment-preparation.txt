@@ -8,7 +8,7 @@ virtualenv env
 source env/bin/activate
 python -m pip install -U jupyter matplotlib numpy pandas scipy scikit-learn
 python -m pip install --upgrade tensorflow
-
+deactivate
 
 # Regular steps
 ###############
